@@ -1,0 +1,28 @@
+html {
+    font-size: 8px;
+}
+
+body {
+    color: var(--c-text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--text-base);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    color: var(--c-text);
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
